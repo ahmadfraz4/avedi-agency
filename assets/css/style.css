@@ -1,0 +1,129 @@
+* {
+  font-family: "Quicksand", sans-serif;
+}
+:root{
+    /* colors */
+    --OceanBlue : #4628ba;
+    --grey : #666666;
+    
+    /* font family */
+    --Quicksand : "Quicksand", sans-serif;
+    --Nunito : "Nunito", sans-serif;
+
+}
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  color: #666666;
+}
+body::-webkit-scrollbar{
+  width:10px;
+}
+body::-webkit-scrollbar-track {
+  background: #f7f7f7;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #232323;
+  font-weight: normal;
+  line-height: 1.2;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 0;
+  margin: 0;
+}
+p{
+  color: var(--grey);
+  font-weight: 500;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 27px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 14px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: none;
+  outline: none;
+  max-width: 100%;
+}
+.section-padding{
+  padding-block: 100px;
+}
+.bg-grey{
+  background-color: #ecf6fa;
+}
+.text-oceanBlue{
+  color: var(--OceanBlue);
+}
+.theme-btn{
+  background-color: var(--OceanBlue);
+  height: 50px;
+  width: 180px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 120px;
+  display: grid;
+  place-items: center;
+}
+.theme-btn:hover{
+color: white;
+}
+.fs-13{
+  font-size: 13px;
+}
+.fs-14{
+  font-size: 14px;
+}
+.swiper-slide{
+  user-select: none;
+}

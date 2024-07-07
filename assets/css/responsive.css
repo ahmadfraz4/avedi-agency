@@ -1,0 +1,60 @@
+@media screen and (min-width: 992px ) {
+  .contact-box::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%; 
+    width: 75%;
+    background-color: white;
+    z-index: -1;  
+    box-shadow: 0 0 10px #cccccc;
+    border-radius: 8px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .navbar {
+    background-color: white !important;
+  }
+  .nav-item a {
+    color: black !important;
+  }
+
+  .sidebar-toggle i {
+    color: black !important;
+  }
+  .banner {
+    background-size: cover;
+  }
+  .sidebar-toggle {
+    position: relative;
+  }
+
+  .banner .container .content {
+    margin-top: 90px !important;
+  }
+  .custom-image {
+    max-width: 100% !important;
+  }
+  .data-card {
+    position: relative;
+    margin-top: 40px;
+  }
+  .data-section{
+    padding-bottom: 20px;
+  }
+  .starter-plan{
+    transform: scale(1);
+    position: relative;
+    z-index: 2;
+  }
+ 
+}
+
+@media screen and (max-width : 400px) {
+  #progressContainer1, #progressContainer2{
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+}
